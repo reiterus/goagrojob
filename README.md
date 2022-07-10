@@ -1,4 +1,4 @@
-# Agro job
+# AgroJob
 
 Thanks to this package, 
 you will be able to conveniently work with site 
@@ -30,11 +30,11 @@ func main() {
 
 Get region codes `fmt.Println(trudvsem.GetRegionCodes())`
 ```
-[0100000000000 0200000000000 ...]
+[0100000000000 0200000000000 ... etc]
 ```
 
 Get region URLs `fmt.Println(trudvsem.GetRegionUrls())`
 ```
-[http://opendata.trudvsem.ru/api/v1/vacancies/region/0100000000000 http://opendata.trudvsem.ru/api/v1/vacancies/region/0200000000000 ...]
+[http://opendata.trudvsem.ru/api/v1/vacancies/region/0100000000000 ... etc]
 
 ```
